@@ -23,3 +23,14 @@
 #
 #Delete these comments before commit!
 #Good luck.
+
+
+
+matrix1 = [4,5,6,7]
+matrix2 = [2,2,2,1]
+matrix3 = [0,0,0,0]
+
+
+for i in range(0,len(matrix1)):
+	matrix3[i] = matrix1[i] + matrix2[i]
+	 print("Matrix3: " (matrix3))
